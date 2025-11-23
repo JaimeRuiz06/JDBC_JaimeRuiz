@@ -1,4 +1,4 @@
-package act4_6;
+package org.basedatos.model;
 
 public class Company {
     private String cif;
@@ -11,6 +11,7 @@ public class Company {
         this.sector = sector;
     }
 
+    // Getters y Setters
     public String getCif() {
         return cif;
     }
@@ -37,11 +38,7 @@ public class Company {
 
     @Override
     public String toString() {
-        return "Company{" +
-                "CIF='" + cif + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", sector='" + sector + '\'' +
-                '}';
+        return "Company [CIF=" + cif + ", Nombre=" + nombre + ", Sector=" + sector + "]";
     }
 }
 
